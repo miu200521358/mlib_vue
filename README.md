@@ -14,7 +14,7 @@ Vue.js - The Progressive JavaScript Framework
 √ Add Vue Router for Single Page Application development? ... No / Yes
 √ Add Pinia for state management? ... No / Yes
 √ Add Vitest for Unit Testing? ... No / Yes
-√ Add an End-to-End Testing Solution? » Playwright
+√ Add an End-to-End Testing Solution? ≫ Playwright
 √ Add ESLint for code quality? ... No / Yes
 √ Add Prettier for code formatting? ... No / Yes
 
@@ -34,8 +34,13 @@ C:\MMD\mlib_vue>
 一階層上に移動
 
 ```
-
+npm install --save quasar @quasar/extras
+npm install --save-dev @quasar/vite-plugin sass@^1.33.0
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npm install -D @vue/tsconfig
+npm install vue-i18n@9
 ```
+
 
 
 This template should help get you started developing with Vue 3 in Vite.
